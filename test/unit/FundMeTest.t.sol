@@ -3,8 +3,8 @@
 pragma solidity ^0.8.18;
 
 import {Test} from "forge-std/Test.sol";
-import {FundMe} from "../src/FundMe.sol";
-import {DeployFundMe} from "../script/DeployFundMe.s.sol";
+import {FundMe} from "../../src/FundMe.sol";
+import {DeployFundMe} from "../../script/DeployFundMe.s.sol";
 
 contract FundMeTest is Test{
     FundMe fundMe;
@@ -63,7 +63,7 @@ contract FundMeTest is Test{
         uint256 startingFundMeBalance = address(fundMe).balance;
 
         vm.prank(fundMe.getOwner());
-        fundMe.withdraw();
+        fundMe.cheaperWithdraw();
 
         uint256 endingOwnerBalance = fundMe.getOwner().balance;
         uint256 endingFundMeBalance = address(fundMe).balance;
@@ -86,7 +86,7 @@ contract FundMeTest is Test{
         // All trx are made by the pranker
         // vm.stopPrank
         vm.prank(fundMe.getOwner());
-        fundMe.withdraw();
+        fundMe.cheaperWithdraw();
         assertEq(address(fundMe).balance, 0);
         assertEq(fundMe.getOwner().balance, startingOwnerBalance + startingFundMeBalance);
         
