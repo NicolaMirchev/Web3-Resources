@@ -12,5 +12,5 @@ docs/
 
 # Dotenv file
 .env
+/lib
 
-Makefile
