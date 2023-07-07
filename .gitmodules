@@ -10,3 +10,6 @@
 [submodule "lottery/lib/foundry-devops"]
 	path = lottery/lib/foundry-devops
 	url = https://github.com/ChainAccelOrg/foundry-devops
+[submodule "erc20/lib/forge-std"]
+	path = erc20/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
