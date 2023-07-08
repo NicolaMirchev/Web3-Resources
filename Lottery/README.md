@@ -1,9 +1,4 @@
-# Proveably Random Raffle Contracts
-
-## About
-This code is to create a proveably random smart contract lottery.
-
-## What we want it to do?
+## What does the project do?
 
 1. Users can enter by paying for a ticket
     1. The ticket fees are going to go to the winner during the draw
@@ -19,3 +14,26 @@ This code is to create a proveably random smart contract lottery.
     1. Work on a local chain
     2. Forked Testnet
     3. Forked Mainnet
+
+## Setup
+
+Clone this repo
+
+```
+git clone https://github.com/NikolaMirchev/Lottery
+cd FundMeProject
+```
+
+## Usage
+
+Run
+
+```
+forge compile
+```
+
+Deploy The contract
+
+```
+forge script script/DeployRaffle.s.sol --private-key <PRIVATE_KEY> --rpc-url <ALCHEMY_URL>
+```
