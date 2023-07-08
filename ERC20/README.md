@@ -9,7 +9,7 @@ Clone this repo
 
 ```
 git clone https://github.com/NikolaMirchev/ERC20
-cd FundMeProject
+cd ERC20
 ```
 
 ## Usage
