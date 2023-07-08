@@ -21,7 +21,7 @@ Clone this repo
 
 ```
 git clone https://github.com/NikolaMirchev/Lottery
-cd FundMeProject
+cd Lottery
 ```
 
 ## Usage
