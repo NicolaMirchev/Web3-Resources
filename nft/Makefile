@@ -1,0 +1,8 @@
+deployMood:
+	@forge script script/deployMoodNft.s.sol:DeployMoodNft $(NETWORK_ARGS)
+
+	0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+	0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+	ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+	cc6e4c5bc83a81f8a2035cfe512bb231f64ed75bd32840a9f2b4cd424831117b

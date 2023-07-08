@@ -20,3 +20,7 @@ contract MintBasicNft is Script {
         vm.stopBroadcast();
     }
 }
+
+contract MintMoodNft is Script{
+    
+}
