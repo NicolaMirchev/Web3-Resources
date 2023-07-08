@@ -9,8 +9,8 @@
 Clone this repo
 
 ```
-git clone https://github.com/PatrickAlphaC/foundry-simple-storage-f23
-cd foundry-simple-storage-f23
+git clone https://github.com/NikolaMirchev/FundMeProject
+cd FundMeProject
 ```
 
 ## Usage
@@ -24,5 +24,5 @@ forge compile
 Deploy The contract
 
 ```
-forge script script/DeploySimpleStorage.s.sol --private-key <PRIVATE_KEY> --rpc-url <ALCHEMY_URL>
+forge script script/DeployFundMe.s.sol --private-key <PRIVATE_KEY> --rpc-url <ALCHEMY_URL>
 ```
