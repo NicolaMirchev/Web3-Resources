@@ -28,3 +28,9 @@
 [submodule "DeFi/lib/forge-std"]
 	path = DeFi/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "DeFi/lib/openzeppelin-contracts"]
+	path = DeFi/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "DeFi/lib/chainlink-brownie-contracts"]
+	path = DeFi/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
