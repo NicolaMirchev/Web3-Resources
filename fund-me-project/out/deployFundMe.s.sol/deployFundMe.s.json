@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "script/deployFundMe.s.sol",
+    "id": 29377,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "0:0:18",
+    "nodes": []
+  },
+  "id": 18
+}
