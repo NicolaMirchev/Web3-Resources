@@ -6,3 +6,12 @@
 3. Collateral: Exogenous (Crypto)
     1. wETH
     2. wBTC
+
+    - calculate health factor func
+    - set health factor if debt is 0
+
+1. What are our invariants/properties?
+
+1. Some proper oracle tests
+2. Write more tests
+3. Smart contract security
