@@ -70,6 +70,11 @@
             OpenZeppelin Reports
           </a>
        </li>
+        <li>
+            <a href="https://github.com/0xNazgul/Blockchain-Security-Audit-List" target="_blank">
+            Repo with a lot of reports and security news
+          </a>
+       </li>
       </ui>
     </td>
   </tr>
