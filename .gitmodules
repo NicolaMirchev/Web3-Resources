@@ -49,3 +49,6 @@
 [submodule "DAO/lib/forge-std"]
 	path = DAO/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "DAO/lib/openzeppelin-contracts"]
+	path = DAO/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
