@@ -11,6 +11,9 @@ A repository to store all my recourses and code on my Web 3 journey.
 2. [Lottery](Lottery)
 3. [ERC20](ERC20)
 4. [NFT](./NFT)
+5. [DeFi- Stable Coin](./Defi-StableCoin)
+6. [DAO](./DAO)
+7. [Upgradable Contract](./UpgradableContract)
 
 ## Roadmap of education
 
