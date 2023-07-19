@@ -15,3 +15,7 @@ The structire is as follows:
 5. [Token](./src/Token.sol)
 6. [Delegation](./src/Delegation.sol)
 7. [Force](./src/Force.sol)
+9. [King](./src/King.sol)
+10. [Re-entrancy](./src/Reentrancy.sol)
+11. [Elevator](./src/Building.sol)
+12. [Privacy](./src/Privacy.sol)
