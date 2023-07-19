@@ -2,6 +2,7 @@
 pragma solidity ^0.8.18;
 
  // Removed SafeMath, because it is only exercise and not to download the whole library.
+ // Here the problem is the name of the constructor is a public available function
 contract Fallout {
 
   mapping (address => uint) allocations;

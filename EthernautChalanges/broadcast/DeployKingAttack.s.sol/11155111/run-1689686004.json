@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "hash": "0xfa93880deab0916383b75b93194f5f1bdb65f5ed3facf0f157ef3c796856fd7f",
+      "transactionType": "CREATE",
+      "contractName": null,
+      "contractAddress": "0xB1cEf5E28A649A0e4EC8662617B5aE44B40f2BB7",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0xe5974ae86baf0b3fe1304c41b16ab0beca90cb42",
+        "gas": "0x2601b",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b5060405161015438038061015483398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b60c2806100926000396000f3fe60806040526004361060205760003560e01c80639e5faafc14602e57600080fd5b36602957600080fd5b600080fd5b60346036565b005b600080546040516001600160a01b039091169034908381818185875af1925050503d80600081146081576040519150601f19603f3d011682016040523d82523d6000602084013e6086565b606091505b5050505056fea2646970667358221220e26b6dde0d659300bc4be62b7f6895893ad9b7054da450a7113c59d7ba89778864736f6c63430008130033000000000000000000000000fc448d74b81282c565630dbb130be991bf6e0a1b",
+        "nonce": "0x3f",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0xe71845dd7e870946b44dbafe2ebc65ebf7d2fc53fb71d1ce43d0e76c12f52209",
+      "transactionType": "CALL",
+      "contractName": "/home/nikola_mirchev8/solidity-course/projects/EthernautChalanges/src/King.sol:Attacker",
+      "contractAddress": "0xB1cEf5E28A649A0e4EC8662617B5aE44B40f2BB7",
+      "function": "attack()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0xe5974ae86baf0b3fe1304c41b16ab0beca90cb42",
+        "to": "0xb1cef5e28a649a0e4ec8662617b5ae44b40f2bb7",
+        "gas": "0xa389",
+        "value": "0x0",
+        "data": "0x9e5faafc",
+        "nonce": "0x40",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xfa93880deab0916383b75b93194f5f1bdb65f5ed3facf0f157ef3c796856fd7f",
+    "0xe71845dd7e870946b44dbafe2ebc65ebf7d2fc53fb71d1ce43d0e76c12f52209"
+  ],
+  "returns": {},
+  "timestamp": 1689686004,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "ca42f8a"
+}

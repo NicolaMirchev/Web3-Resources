@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// The randomness on-chain is hardly possible and the current method could be compromised by executing the "random" logic,
+// which will give same results for all transactions in the current block.
 contract CoinFlip {
 
   uint256 public consecutiveWins;
