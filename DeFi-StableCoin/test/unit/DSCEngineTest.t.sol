@@ -142,4 +142,18 @@ contract DSCEngineTest is Test{
         assertEq(totalDscMinted, 0);
         assertEq(collateralValueInUsd, 0);
     }
+
+    function testReedemCollateralForNotDepositedUnderflows() depositedCollateral mintDSC public{
+        // 1. Deposit some collateral in from account A.
+        DecentralizedStableCoin(coin).approve(address(engine), AMOUNT_DSC_TO_MINT); 
+        address attacker = makeAddr("attacker");
+
+        vm.startPrank(attacker);
+        ERC20Mock(weth).approve(address(engine), AMOUNT_COLLATERAL);
+        // 2. Redeem the same collateral from account B with burnDsc value 0.
+        engine.redeemCollateral(weth, 10, 0);
+
+        console.log(engine.getAccountCollateralValue(attacker));
+        assert(engine.getAccountCollateralValue(attacker) > 0);   
+    }
 }
