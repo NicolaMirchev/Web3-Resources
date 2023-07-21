@@ -36,7 +36,7 @@
           </a>
         </li>
         <li>
-            <a href=" https://secureum.substack.com/p/audit-findings-101" target="_blank">
+            <a href="https://secureum.substack.com/p/audit-findings-101" target="_blank">
             Secureum Audit Findings 101
           </a>
        </li>
