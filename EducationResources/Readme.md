@@ -34,10 +34,16 @@
             <a href="https://github.com/sigp/solidity-security-blog" target="_blank">
             Attack vectors for beginners
           </a>
+        </li>
+        <li>
+            <a href="https://secureum.substack.com/p/audit-findings-101" target="_blank">
+            Secureum Audit Findings 101
+          </a>
+       </li>
        </li>
          <li>
             <a href="https://swcregistry.io/docs/SWC-100" target="_blank">
-            SWC-100
+            SWC
           </a>
        </li>
          <li>
