@@ -85,3 +85,11 @@
     </td>
   </tr>
 </table>
+
+
+# Useful during an audit
+- [Auditing Heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
+
+
+
+
