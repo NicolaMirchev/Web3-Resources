@@ -81,6 +81,11 @@
             Repo with a lot of reports and security news
           </a>
        </li>
+          <li>
+            <a href="https://blog.bytes032.xyz/p/10-protocols-from-which-you-can-gain-a-wealth-of-knowledge" target="_blank">
+            Top Contracts
+          </a>
+       </li>
       </ui>
     </td>
   </tr>
