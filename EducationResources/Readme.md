@@ -89,7 +89,7 @@
         </li>
           <li>
             <a href="https://www.rareskills.io/post/smart-contract-security?fbclid=IwAR2W-g_396WSbV66XrJTRf5cDkZENmrKxh35CYj2hp9FGWbuaQkfpZyvTB4" target="_blank">
-            Top Contracts
+            Very good summary of the most common attacks
           </a>
        </li>
       </ui>
