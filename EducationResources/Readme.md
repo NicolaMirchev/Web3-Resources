@@ -86,6 +86,12 @@
             Top Contracts
           </a>
        </li>
+        </li>
+          <li>
+            <a href="https://www.rareskills.io/post/smart-contract-security?fbclid=IwAR2W-g_396WSbV66XrJTRf5cDkZENmrKxh35CYj2hp9FGWbuaQkfpZyvTB4" target="_blank">
+            Top Contracts
+          </a>
+       </li>
       </ui>
     </td>
   </tr>
