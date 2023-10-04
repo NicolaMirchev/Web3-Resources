@@ -43,6 +43,11 @@ API endpoint for fetching all bridged ERC-20 tokens
 
 # Project documentation
 
+## Diagram
+
+![Diagram Section](./StructureDiagram.png)
+
+
 **The project consists of:**
 
 ## Web3
@@ -71,8 +76,5 @@ API endpoint for fetching all bridged ERC-20 tokens
 
 ---
 
-## Diagram
 
-[Diagram Section](./StructureDiagram.png)
 
-Insert your diagrams and visual representations here.
