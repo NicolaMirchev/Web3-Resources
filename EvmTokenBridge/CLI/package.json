@@ -1,0 +1,29 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "CLI tool for interacting with blockchain",
+  "main": "bin/index.js",
+  "bin": {
+    "bridge": "bin/index.cjs"
+  },
+  "scripts": {
+    "test": "test",
+    "dev": "node server.cjs"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "type": "module",
+  "author": "Nikola Mirchev",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.30",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "firebase": "^10.4.0",
+    "firebase-admin": "^11.10.1",
+    "web3": "^4.1.1",
+    "yargs": "^17.7.2"
+  }
+}
