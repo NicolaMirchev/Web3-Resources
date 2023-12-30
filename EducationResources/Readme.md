@@ -102,6 +102,7 @@
 - [Auditing Heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
 - [OZ Vulnerable Verisons](https://security.snyk.io/package/npm/@openzeppelin%2Fcontracts)
 - [Guardian Audits Notion Page](https://lab.guardianaudits.com/encyclopedia-of-solidity-attack-vectors)
+- [Differences between different chains and where to be careful](https://github.com/0xJuancito/multichain-auditor)
 
 
 
