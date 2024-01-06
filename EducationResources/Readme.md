@@ -21,6 +21,11 @@
            Mastering Ethereum
           </a>
         </li>
+        <li>
+          <a href="https://github.com/ethereum/go-ethereum/blob/0b471c312a82adf172bf6efdc7e3fdf285c62fba/core/vm/instructions.go#L418C35-L418C35" target="_blank">
+           Ethereum optcodes implementation
+          </a>
+        </li>
       </ui>
     </td>
     <td align="center">
