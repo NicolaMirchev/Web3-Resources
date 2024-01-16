@@ -97,6 +97,16 @@
             Very good summary of the most common attacks
           </a>
        </li>
+         <li>
+            <a href="https://www.youtube.com/watch?v=DRZogmD647U" target="_blank">
+            Owen advanced security course 1
+          </a>
+       </li>
+         <li>
+            <a href="https://www.youtube.com/watch?v=zLnxRvf6IMA" target="_blank">
+            Owen advanced security course 2
+          </a>
+       </li>
       </ui>
     </td>
   </tr>
