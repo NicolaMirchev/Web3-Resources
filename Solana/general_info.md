@@ -9,3 +9,7 @@ __The most important concepts to master for builders/researchers:__
 __General Solana info:__
 - [Thread summarising Solana architecture](https://x.com/paramonoww/status/1859574291337183282)
 - [Solana consensus model diagram](https://x.com/paramonoww/status/1817762739902935301)
+
+__Key concepts of Solana with most important info for each:__
+- https://ackee.xyz/solana/book/latest/
+
