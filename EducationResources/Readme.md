@@ -121,4 +121,7 @@
 
 
 
+# Interesting bug bounty findings with reports
+- Aptos arbitrary stuck hijack https://hexens.io/research/aptos-hijack-bug#8-local-proof-of-concept
+
 
